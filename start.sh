@@ -1,1 +1,1 @@
-./minerd -o http://api.bitcoin.cz:8332 -O $USER:$PW -a sha256d
+./minerd -o stratum+tcp://fr.suchcoins.com:3333 -O $LOGIN

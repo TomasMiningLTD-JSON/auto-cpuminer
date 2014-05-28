@@ -8,7 +8,5 @@ heroku ps:scale web=0
 
 heroku ps:scale worker=1
 
-heroku config:set USER=username
-
-heroku config:set PW=password
+heroku config:set LOGIN=username:password
 ```
