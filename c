@@ -3,7 +3,7 @@ git config --global user.email $USER@example.com
 git config --global user.name $USER
 ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -N ""
 cp known_hosts .ssh/
-heroku keys:add
+expect add_keys $1 $2
 APPNAME="dcp-$USER"
 heroku create $APPNAME
 heroku clone $APPNAME
