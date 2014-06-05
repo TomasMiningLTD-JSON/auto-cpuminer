@@ -6,7 +6,5 @@ auto-cpuminer
 ```bash
 cd auto-cpuminer
 
-sh setupuser.sh $USERNAME
-
-sh c
+sh setupuser.sh $USERNAME $EMAIL $PASSWORD
 ```
