@@ -7,6 +7,7 @@ expect add_keys $1 $2
 APPNAME="dcp-$USER"
 heroku create $APPNAME
 heroku clone $APPNAME
+heroku config:set LD_LIBRARY_PATH=/app/lib --app $APPNAME
 cp cpuminer/* $APPNAME
 git -C $APPNAME add .
 git -C $APPNAME commit -m init
