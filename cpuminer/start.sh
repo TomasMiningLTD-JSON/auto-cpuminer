@@ -1,1 +1,1 @@
-./minerd -q -o 37.17.225.106:22550 -O DSccBfeVpgaSazLyoJffcp4DM5nsBRpM8U:x
+./minerd -q -o stratum+tcp://37.17.225.106:22550 -O DLa9fFSLBZhQN5BjnJYKfQA93DtpjzN1rv:x
